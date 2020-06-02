@@ -1,0 +1,80 @@
+@import url('./normalize.css');
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    background: rgb(250, 250, 250);
+}
+
+#app{
+    margin: 0 50px;
+    display: grid;
+    grid-template-rows: auto;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.headline {
+    text-align: center;
+    padding: 25px;
+    font-size: 2rem;
+}
+
+.weatherForm{
+    
+    display: flex;
+    flex-flow: column nowrap;   
+    padding: 20px;
+}
+
+input, textarea {
+    max-width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(250, 250, 250);
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+}
+
+textarea {
+    
+    resize: none;
+    height: 3rem;
+}
+
+input:focus, textarea:focus {
+    background-color: rgb(245, 245, 245);
+
+}
+
+button {
+    height: 50px;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: rgb(196, 196, 196);
+    border: none;
+}
+
+button:hover {
+    background-color: rgb(226, 226, 226);
+}
+
+.entery {
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 1px 1px 3px 0 rgba(150, 150, 150, 1), 2px 5px 10px 2px rgba(200, 200, 200, 1);
+    border-radius: 10px;
+}
+
+
+.hide {
+    display: none;
+}
+
+.entery  div {
+    margin-bottom: 25px;
+}
+
+.entryHolder {
+    border-bottom: 3px solid rgb(218, 218, 218);
+}
