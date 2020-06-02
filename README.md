@@ -5,8 +5,8 @@ This project is to create an asynchronous web app that uses Web API and user dat
 
 ## Instructions
 This will require:
-    - Install all dependicies `npm install`
-    - run server `node server.js`
-    - In browser navigate to port `3000`
+- Install all dependencies `npm install`
+- Run server `node server.js`
+- In browser navigate to port `3000`
   
 
